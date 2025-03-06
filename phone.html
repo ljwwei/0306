@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>行動電話使用意見調查表</title>
+</head>
+<body>
+    <h1>行動電話使用意見調查表</h1>
+    <form action="/test.aspx" method="post">
+        姓名:<input type="text">
+        <br>
+        email:<input type="email" name="email">
+        <br>
+        <p>您使用手機時最常碰到哪些問題?</p>
+        <textarea></textarea>
+        <br>
+        您使用過哪家業者的門號?(可複選)
+        <select id="cars" name="cars" size="4" multiple>
+            <option value="16p">中華電信</option>
+            <option value="15">遠傳電信</option>
+            <option value="air">台灣大哥大</option>
+            <option value="pro">原台灣之星</option>
+            <option value="pro">原亞太電信</option>
+        </select>
+        <br>
+        <input type="submit" value="提交">
+        <input type="reset" value="重設">
+    </form>
+</body>
+</html>
